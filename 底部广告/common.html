@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>公共底部</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		a {
+			text-decoration: none;
+			color: #fff;
+		}
+		.ban-footer {
+			position: relative;
+			width: 100%;
+			height: 70px;
+			position: fixed;
+			z-index: 999;
+			left: 0;
+			bottom: 0;
+			color: #fff;
+			background-color: rgba(0,0,0,.8);
+		}
+		.ban-footer-w {
+			height: 70px;
+			width: 980px;
+			position: relative;
+			margin: 0 auto;
+		}
+		.footer-w {
+			width: 980px;
+			margin: 0 auto;
+		}
+		.ban-footer-l {
+			float: left;
+			margin-left: 50px;
+			width: 420px;
+		}
+		.ban-footer-l a {
+			height: 70px;
+			color: #0073b6;
+		}
+		.ban-footer-l a img {
+			vertical-align: top;
+			width: 420px;
+			height: 70px;
+		}
+		.ban-footer-r {
+			float: left;
+			line-height: 70px;
+			font-size: 14px;
+			color: #d7d7d7;
+			width: 386px;
+			height: 70px;
+		}
+		.btn {
+			display: inline-block;
+			margin-left: 10px;
+			border: 0;
+			width: 100px;
+			height: 30px;
+			line-height: 30px;
+			text-align: center;
+			cursor: pointer;
+			border-radius: 3px;
+			color: #fff;
+			margin-top: 20px;
+		}
+		.ban-footer-r .btn-weibo {
+			float: left;
+			background-color: #da371f;
+		}
+		.ban-footer-r .btn-qq {
+			float: left;
+			background-color: #2b8fc8;
+		}
+		.ban-footer-r .btn-qyer {
+			float: left;
+			background-color: #7ab898;
+		}
+		.ban-footer-r .log {
+			float: left;
+			margin-left: 10px;
+			margin-right: 4px;
+			color: #d7d7d7;
+			font-weight: 700;
+		}
+		.ban-footer-icon {
+			position: absolute;
+			line-height: 70px;
+			right: 3%;
+			bottom: 0;
+			font-size: 16px;
+		}
+		@font-face {
+		  	font-family: 'iconfonts';
+		  	src: url('../footer-font/iconfont.eot');
+		  	src: url('../footer-font/iconfont.eot?#iefix') format('embedded-opentype'),
+		  	url('../footer-font/iconfont.woff') format('woff'),
+		  	url('../footer-font/iconfont.ttf') format('truetype'),
+		  	url('../footer-font/iconfont.svg#iconfont') format('svg');
+		}
+		.iconfont{
+		  	font-family:"iconfonts" !important;
+		  	font-size:16px;font-style:normal;
+		    -webkit-font-smoothing: antialiased;
+		    -webkit-text-stroke-width: 0.2px;
+		    -moz-osx-font-smoothing: grayscale;
+		}
+	</style>
+</head>
+<body>
+	<div class="ban-footer">
+		<div class="ban-footer-w footer-w">
+			<div class="ban-footer-l">
+				<a href="javascript:;">
+					<!-- <img src="../images/footer.png" alt=""> -->
+					<img src="../images/footer.png">
+				</a>
+			</div>
+			<div class="ban-footer-r">
+				<a href="javascript:;" class="btn btn-weibo">
+					<i class="iconfont">&#xe60a;</i>
+					<span>微博登录</span>
+				</a>
+				<a href="javascript:;" class="btn btn-qq">
+					<i class="iconfont">&#xe601;</i>
+					<span>QQ登录</span>
+				</a>
+				<a href="javascript:;" class="log">登录</a>
+				<span style="float: left;">或</span>
+				<a href="javascript:;" class="btn btn-qyer">
+					<span>注册穷游</span>
+				</a>
+			</div>
+		</div>
+		<span class="ban-footer-icon">
+			<i class="iconfont">&#xe6bc;</i>
+		</span>
+	</div>
+</body>
+</html>
